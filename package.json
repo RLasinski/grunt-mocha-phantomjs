@@ -28,8 +28,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "mocha-phantomjs": "~2.0.1",
-    "phantomjs": "~1.9.0-1"
+    "mocha-phantomjs": "~2.0.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
@@ -37,6 +36,9 @@
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
+  },
+  "optionalDependencies": {
+    "phantomjs": "~1.9.0-1"
   },
   "keywords": [
     "gruntplugin",
